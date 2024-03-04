@@ -21,14 +21,14 @@ export function WelcomeBanner() {
         
         <button
           onClick={() =>
-            window.open("#")
+            window.open("https://twitter.com/ChiliOnSol")
           }
           className="flex items-center justify-center rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
         >
           <BiLogoTwitter className="mr-1" />Twitter
         </button>
         <button
-          onClick={() => window.open("#")}
+          onClick={() => window.open("https://discord.gg/FNF7bBQwbJ")}
           className="flex items-center justify-center rounded-lg p-3 bg-white hover:bg-gray-200 hover:-translate-y-0.5 transform text-black transition-all duration-200 ease-in-out cursor-pointer shadow-lg hover:shadow-xl"
         >
           <FaDiscord className="mr-1" /> Discord
