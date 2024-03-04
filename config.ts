@@ -6,7 +6,7 @@ import { PublicKey } from "@solana/web3.js";
 
 // Solana address you wish to receive fees
 export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
-  "HYRS8vTz5smMNztCRquyVcdcZvPVD57bV87FxpkaNnXg",
+  "FSD36R1UtKiSspGXZtRm9WDCZjR3wmQasoE8t7YgXdyd",
 );
 
 // Platform URL - Appears in ShareModal
