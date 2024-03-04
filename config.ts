@@ -6,11 +6,11 @@ import { PublicKey } from "@solana/web3.js";
 
 // Solana address you wish to receive fees
 export const PLATFORM_CREATOR_ADDRESS = new PublicKey(
-  "GzLh2DFW3M7movqP28QgofA5pDdcAhJnXDwdAY8z9n4k",
+  "HYRS8vTz5smMNztCRquyVcdcZvPVD57bV87FxpkaNnXg",
 );
 
 // Platform URL - Appears in ShareModal
-export const PLATFORM_SHARABLE_URL = "gamba-v2-nextjs.vercel.app";
+export const PLATFORM_SHARABLE_URL = "chilicasino.netlify.app";
 
 // Toggle all live events acrossed gamba toast
 export const LIVE_EVENT_TOAST = true;
