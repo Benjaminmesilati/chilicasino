@@ -28,7 +28,7 @@ export default function HomePage() {
         />
         <meta
           property="og:image"
-          content="https://chilicasino.netlify.app/logo.svg"
+          content="https://chilicasino.netlify.app/logo.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -48,6 +48,7 @@ export default function HomePage() {
           property="twitter:image"
           content="https://chilicasino.netlify.app/logo.png"
         />
+        <link rel="shortcut icon" href="https://chilicasino.netlify.app/favicon.png" type="image/x-icon" />
       </Head>
       <div className="relative mx-auto flex flex-col gap-5 max-sm:pt-20 md:pt-20 pb-10 px-2.5 transition-all duration-250 ease-in-out sm:px-5 sm:pt-5 md:max-w-6xl">
         <Dashboard />
