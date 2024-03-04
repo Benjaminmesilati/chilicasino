@@ -17,7 +17,7 @@ export default function HomePage() {
         />
 
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://chilicasino.netlify.app/" />
+        <meta property="og:url" content="https://chilicasino.vercel.app/" />
         <meta
           property="og:title"
           content="Chili Casino"
@@ -28,13 +28,13 @@ export default function HomePage() {
         />
         <meta
           property="og:image"
-          content="https://chilicasino.netlify.app/logo.png"
+          content="https://chilicasino.vercel.app/logo.svg"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
         <meta
           property="twitter:url"
-          content="https://chilicasino.netlify.app/"
+          content="https://chilicasino.vercel.app/"
         />
         <meta
           property="twitter:title"
@@ -46,9 +46,9 @@ export default function HomePage() {
         />
         <meta
           property="twitter:image"
-          content="https://chilicasino.netlify.app/logo.png"
+          content="https://chilicasino.vercel.app/logo.png"
         />
-        <link rel="shortcut icon" href="https://chilicasino.netlify.app/favicon.png" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
       </Head>
       <div className="relative mx-auto flex flex-col gap-5 max-sm:pt-20 md:pt-20 pb-10 px-2.5 transition-all duration-250 ease-in-out sm:px-5 sm:pt-5 md:max-w-6xl">
         <Dashboard />
